@@ -541,4 +541,6 @@ declare namespace ky {
 	export type HTTPError = InstanceType<typeof HTTPError>;
 }
 
-export default ky;
+export {
+  ky
+};
