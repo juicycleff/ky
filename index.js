@@ -507,4 +507,4 @@ const createInstance = defaults => {
 
 const ky = createInstance();
 
-export default ky;
+module.exports = ky;

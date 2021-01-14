@@ -158,7 +158,8 @@ ky(url, {
 });
 
 try {
-	await ky.get(url);
+	// @ts-ignore
+  await ky.get(url);
 } catch (error) {
 	if (error instanceof ky.HTTPError) {
 		expectType<ky.HTTPError>(error);
